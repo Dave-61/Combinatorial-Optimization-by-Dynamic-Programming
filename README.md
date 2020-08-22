@@ -1,0 +1,3 @@
+An Ising spin model can be thought of as a graph with vertices and edges, in which each vertex has a spin which can be positive (+1) or negative (-1). The vertices have weights given by a vector h and the edges have weights given by an upper triangular matrix J; weights can be positive, negative, or zero. The spin configuration, i.e., whether each vertex's spin is positive or negative, is known as the state. The energy of the system depends on the state and the weights given by h and J. </br>
+</br>
+We are interested in finding a ground state, i.e. a state that minimizes the energy of the system. A ground state (optimal solution) can be found using dynamic programming. More details are provided in the notebook.
